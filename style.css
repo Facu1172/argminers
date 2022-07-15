@@ -119,10 +119,9 @@ justify-content: center;margin-left: 30px;width: 400px;position: relative;}}
         .final
         {width:400px; text-align:left;}
     }
-    {.header img{width:150px; heigth:150px}
-    }
+    .header img{width:150px; height:150px}
+    
 @media (max-width:650px) 
-{.header img{width:150px; heigth:50px}
+{.header img{width:150px; height:50px}
     }
-    .header{display: flex; flex-direction: column;
-        justify-content: center;margin-left: 30px;width: 400px;position: relative;margin-top: 150px;}}
+.header {display: flex; flex-direction: column; justify-content: center; margin-left:30px;width:400px;position:relative; margin-top:150px}
