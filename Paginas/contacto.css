@@ -53,13 +53,6 @@ align-items: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.flex__container form{
-    font-family: 'Courier New', Courier, monospace;
-    margin-top: 50px;
-    font-size: 20px;
-    border: 2px solid black;
-}
-
 .final{
     text-align: center;
     margin-top: 500px;
