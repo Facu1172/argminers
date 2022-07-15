@@ -45,19 +45,16 @@
                         "footer footer footer";
     justify-content: center;
 }     
-.aside{
-    grid-area: aside;
-    text-align: center;
+.text-justify{
     margin-top: 50px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
 }
 .principal{
     grid-area: imagenes;
     display: flex;
-    flex-direction: row;
-    gap: 10px;
+    
     justify-content: center;
-    background-color: rgb(218, 218, 218);
+    
 }
 .final{
     grid-area: footer;
@@ -95,8 +92,7 @@ img{
     }
   }
 
-@media(max-width:650px){
-    .principal{display: flex; flex-direction: column; margin-top: 100px;width: 300px;}}
+
 @media(max-width:650px){
     .imagen{height: 200px; width: 300px;}
 @media(max-width:650px){
