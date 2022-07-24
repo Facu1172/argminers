@@ -2,39 +2,6 @@
     margin: 0%;
     padding: 0%;
 }
-
-.header{
-    background-color: white;
-    justify-content: space-around;
-    display: flex;
-    height: 70px;
-    width: 100%;
-    flex-direction: row;
-    position: fixed;
-    top: 0;
-    
-}
-
-.header li{
-    margin-top: 20px;
-    height: 50px;
-    width: 150px;
-    font-size: 20px;
-    align-items: center;
-    list-style: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            }
-
-.header a{
-    text-decoration: none;
-    color: black;
-    transition: color 0.5s ;
-         }
-
-.header a:hover{
-    color: red;
-                }
-
 .flex__container{
     margin-top: 100px;
     display: flex;

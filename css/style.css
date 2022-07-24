@@ -3,40 +3,6 @@
     padding: 0%;
 }
 
-.header{
-    background-color: white;
-    justify-content: space-around;
-    display: flex;
-    height: 70px;
-    width: 100%;
-    flex-direction: row;
-    position: fixed;
-    top: 0;
-    
-}
-
-.header li{
-    margin-top: 20px;
-    height: 50px;
-    width: 150px;
-    font-size: 20px;
-    align-items: center;
-    list-style: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            }
-
-.header a{
-    text-decoration: none;
-    color: black;
-    transition: color 0.5s ;
-         }
-
-.header a:hover{
-    color: red;
-                }
-
-
-
 .grid__container{
     display: grid;
     margin-top: 100px;
@@ -68,10 +34,10 @@ img{
     animation-timing-function: linear;
     animation-fill-mode: forwards;
   }
-  img{animation-delay: 2s;}
-  span:nth-child(2){animation-delay: 2.75s;}
-  span:nth-child(3){animation-delay: 3s;}
-  span:nth-child(4){animation-delay: 3.15s;}
+  img{animation-delay: 0.25s;}
+  span:nth-child(2){animation-delay: 0.5s;}
+  span:nth-child(3){animation-delay: 1s;}
+  span:nth-child(4){animation-delay: 1.25s;}
   
   @keyframes bounceIn{
     0%{
@@ -115,9 +81,9 @@ justify-content: center;margin-left: 30px;width: 400px;position: relative;}}
         .final
         {width:400px; text-align:left;}
     }
-    .header img{width:150px; height:150px}
+    .header img{width:150px; height:150px;}
     
 @media (max-width:650px) 
-{.header img{width:150px; height:50px}
+{.header img{width:150px; height:50px;}
     }
-.header {display: flex; flex-direction: column; justify-content: center; margin-left:30px;width:400px;position:relative; margin-top:150px}
+.header {display: flex; flex-direction: column; justify-content: center; margin-left:30px;width:400px;position:relative; margin-top:150px;}
