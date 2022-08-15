@@ -1,5 +1,6 @@
 @import './globals';
 @import './mixins';
+
 .header{
     background-color: white;
     justify-content: space-around;
@@ -53,15 +54,21 @@ footer{
 
 .final{
   @include footer();
-}
-
+  font-size: map-get($fuentes,text-medio );
+  background-color: rgb(154, 164, 164);
+  }
+  span{
+    color:white
+  }
 h1{
   font-family: $h1-font; font-size: map-get($fuentes, text-medio );
 }
 
-p{font-family:$p-font; margin-left: 10px; margin-right: 10px;font-size: map-get($fuentes, text-chico );}
+p{font-family:$p-font; margin-left: 10px; margin-right: 10px;font-size: map-get($fuentes, text-medio );}
 
 article{font-family: $p-font; font-size: map-get($fuentes, text-grande );}
 
 
-  
+body{background-image: url("../recursos/img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;}  

@@ -55,27 +55,25 @@
     
 <div class="flex__container">
     <section>
-        <article class="text-justify">
-          Dejanos un mensajes para que podamos comunicarnos con vos!
-        </article>
+       
     </section>
-    <section>   
-        <div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon1">Nombre</span>
-            <input type="text" class="form-control" placeholder="Ingresa nombre y apellido" aria-label="Username" aria-describedby="basic-addon1">
-          </div>
-          
-          <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Ingresa tu correo" aria-label="Recipient's username" aria-describedby="basic-addon2">
-            <span class="input-group-text" id="basic-addon2">E-Mail</span>
-          </div>
-            <div class="input-group">
-            <span class="input-group-text">Mensaje</span>
-            <textarea class="form-control" aria-label="With textarea"></textarea>
-          </div>
-    </section>
+    <form>
+        <legend class="section_title">Dejanos tu mensaje!</legend>
+        <label for="name">Nombre</label>
+        <input id="name" type="text" name="name">
+        <label for="email">Email</label>
+        <input id="email" type="text" name="email">
+        <label for="phone">Teléfono</label>
+        <input id="phone" type="text" name="phone">
+        <label for="comments">mensaje</label>
+        <textarea id="comments" name="textarea" rows="10"></textarea>
+       
+    
+    
+        <input type="submit">
+    </form>
     <footer class="final">
-        <span class="text-muted"> Copyright Todos los derechos reservados </span>
+        <span> @2022 Copyright Todos los derechos reservados</span>
      </footer>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

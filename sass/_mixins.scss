@@ -1,12 +1,12 @@
+@import './globals';
 @mixin final ($align){
     text-align: $align;
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: azure;
 }
 
-@mixin menu ($medida:650px){
+@mixin menu ($medida:750px){
     @media screen and (max-width: $medida){
         
 display:flex; 
@@ -16,10 +16,11 @@ display:flex;
     margin-top: 150px; 
     position: relative;}}
 
-    @mixin footer ($medida:650px){
+    @mixin footer ($medida:750px){
         @media screen and (max-width: $medida){
         width:100%;
         justify-content: center; 
         align-items: center;
         text-align: center;
-        position: fixed;}}
+        position: fixed;
+        font-size:map-get($fuentes,text-chico);} }

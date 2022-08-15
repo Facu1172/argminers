@@ -5,6 +5,13 @@
 html {
   font-size: 62.5%; }
 
+* {
+  margin: 0%;
+  padding: 0%; }
+
+html {
+  font-size: 62.5%; }
+
 .header {
   background-color: white;
   justify-content: space-around;
@@ -48,8 +55,7 @@ footer {
   text-align: center;
   position: fixed;
   bottom: 0;
-  width: 100%;
-  background-color: azure; }
+  width: 100%; }
 
 @media screen and (max-width: 650px) {
   .header {
@@ -60,13 +66,20 @@ footer {
     margin-top: 150px;
     position: relative; } }
 
-@media screen and (max-width: 650px) {
-  .final {
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    position: fixed; } }
+.final {
+  font-size: 2rem;
+  background-color: #9aa4a4; }
+  @media screen and (max-width: 750px) {
+    .final {
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      position: fixed;
+      font-size: 1.5rem; } }
+
+span {
+  color: white; }
 
 h1 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -76,8 +89,13 @@ p {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   margin-left: 10px;
   margin-right: 10px;
-  font-size: 1.5rem; }
+  font-size: 2rem; }
 
 article {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 2.5rem; }
+
+body {
+  background-image: url("../recursos/img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }

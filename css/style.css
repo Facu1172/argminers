@@ -8,12 +8,14 @@
 }     
 .text-justify{
     margin-top: 50px;
+    padding-left: 20%;
+    padding-right: 20%;
     
 }
 .principal{
     grid-area: imagenes;
     display: flex;
-    
+    align-items: center;
     justify-content: center;
     
 }
@@ -64,5 +66,14 @@ img{
 @media(max-width:650px){
     .grid__container{ display: flex;
         flex-direction: column;
-    overflow: auto;}}
+    overflow: auto;
+  }}
+  @media (max-width:650px) {
+    .text-justify{
+      padding-left: 10%;
+padding-right: 10%;
+align-items: center;
+    }
+    
+  }
 

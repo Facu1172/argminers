@@ -18,6 +18,7 @@
     width: 450px; height: 350px;
     transition: 1s;
     opacity: 20%;
+    justify-content: center;
 }
 .grid__container img:hover{
 opacity: 100;
@@ -36,19 +37,16 @@ opacity: 100;
     grid-area: img4;
 }
 
-@media(max-width:650px){
+@media(max-width:750px){
     .principal{display: flex; flex-direction: column; margin-top: 100px;width: 300px;}}
-@media(max-width:650px){
-    .imagen{height: 200px; width: 300px;}
-@media(max-width:650px){
-    .video{height: 200px; width: 300px;}
-@media(max-width:650px){
-    .imagen2{height: 200px; width: 300px;}    
+@media(max-width:750px){
+    .div__container{justify-content: center;}
 }
-@media(max-width:650px){
+@media(max-width:750px){
     .aside{display: flex; flex-direction: column;margin-top: 300px; text-align: left; width: 300px;}}
-@media(max-width:650px){
+@media(max-width:750px){
     .grid__container{ display: flex;
+        align-items: center;
         flex-direction: column;
     overflow: auto;
     margin-top: 200px;}}
