@@ -89,7 +89,6 @@ select {
     color: white;
 }
 
-
 @media(max-width:750px){
     .flex__container{display: flex; flex-direction: column; margin-top: 200px;width:100%; align-items: center;}}
   

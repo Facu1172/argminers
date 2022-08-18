@@ -5,11 +5,13 @@
                         ". aside ."
                         "footer footer footer";
     justify-content: center;
+    margin-bottom: 50px;
 }     
 .text-justify{
     margin-top: 50px;
     padding-left: 20%;
     padding-right: 20%;
+    margin-bottom: 50px;
     
 }
 .principal{
